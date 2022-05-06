@@ -1,0 +1,36 @@
+
+- 変更が必要なファイル -
+
+    yk_.html
+    yk_prf.cgi
+    yk_adv.cgi
+    yk_auto.cgi
+
+- ファイルパーミッション設定 -
+
+・755(rwxr-xr-x)にするもの
+    yk_.cgi
+    yk_ini.cgi
+    yk_prf.cgi
+    yk_bbs.cgi
+    yk_msg.cgi
+    yk_reg.cgi
+    nph-yk_srv.cgi
+・666(rw-rw-rw-)にするもの
+    yk_dat.cgi
+    yk_gdat.cgi
+    yk_bbs0.log
+    yk_bbs1.log
+    yk_bak.cgi
+
+- その他 -
+
+・アイテム、装備は独自の物を用意してもデータ転送に支障はありません。しかし、クラス名の変更、レベルアップ曲線の変更は転送に支障が出ます。
+・perl5での動作確認を行っております。
+・サーバー間通信を行うことができないプロバイダーがあるかもしれません。
+・スクリプトの拡張ができる（perlのプログラムが組める&キタナイプログラムが読める(笑)）人は拡張しても構いません。
+
+---- b-Yak-38 --------
+http://bya.lib.net/
+mailto:bya@lib.net
+----------------------
